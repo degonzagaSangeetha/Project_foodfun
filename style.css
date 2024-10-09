@@ -224,7 +224,7 @@ h7 {
 
 .box {
     background-color: #f9f9ff;
-    width: 361px;
+    width: 362px;
     height: 450px;
 
 }
@@ -279,11 +279,18 @@ h7 {
     font-weight: 700;
 }
 
-.parag {
+.parag,
+.parag1 {
     color: white;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.parag1 {
+    padding-top: 140px;
+
 
 }
 
@@ -623,13 +630,17 @@ ul>li {
         display: block;
     }
 
+    .main-container {
+        width: 60%;
+    }
+
     .box-container {
         grid-template-columns: repeat(1, 1fr);
     }
 
     .box {
         background-color: #f9f9ff;
-        width: 340px;
+        width: 362px;
         height: 450px;
     }
 
@@ -734,6 +745,12 @@ ul>li {
     }
 }
 
+@media(max-width:600px) {
+    .main-container {
+        width: 80%;
+    }
+}
+
 @media(max-width:560px) {
     .para-container>.p1 {
         width: auto;
@@ -785,6 +802,7 @@ ul>li {
 
     .box {
         width: 200px;
+        height: 345px;
     }
 
     .im {
